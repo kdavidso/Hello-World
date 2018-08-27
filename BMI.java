@@ -6,7 +6,7 @@ public class BMI {
 		double height = scan.nextDouble();
 		double weight = scan.nextDouble();
 		
-		double bmi = 703*height/(weight*weight);
+		double bmi = 703*weight/(height*height);
 		System.out.println("Your bmi is " + bmi);
 	}
 }
